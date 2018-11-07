@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite" annotations="JDK" parallel="false">
+	<parameter name="browser" value="chrome"></parameter>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Regression Test">
+		<classes>
+			<class name="testcases.UserSearchTest" />
+			<class name="testcases.UserSortTest" />
+		</classes>
+	</test>
+</suite>

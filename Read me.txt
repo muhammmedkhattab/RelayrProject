@@ -1,0 +1,23 @@
+Technologies:
+
+	java,eclipse,maven,Testng,git,reports,API
+
+prerequisites:
+
+	java installed and setting up variables 
+	
+Run:	
+
+	You can run with UI or headless
+
+		open CMD
+		cd directory 
+		mvn clean test -Psuite
+
+	or
+
+	You can run "run_cmd.bat" in the project dir "QA_Task"
+
+Framework limitations:
+
+	java classes ,testng tests, Page Object Model ,data driven, maven, pom file ,xml file,can run on multiple browsers ex(chrome,firefox,IE) also can run headless
